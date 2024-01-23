@@ -1,0 +1,25 @@
+
+@import "variable";
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background: $bgcolor;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    background: blue;
+    display: flex;
+    list-style: none;
+    li{
+        padding: 10px;
+        margin: 10px;
+        background: yellow;
+    }
+}

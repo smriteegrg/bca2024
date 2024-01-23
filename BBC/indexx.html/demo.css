@@ -1,0 +1,51 @@
+.smritee{
+    width: 900px;
+    height: 900px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.box{
+    width: 400px;
+    Height: 400px;
+    background-color: blue;
+    margin:left;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 400px;
+   Height: 400px;
+    background-color: brown;
+    margin: right;
+    align-items: center;
+}
+.box2{
+    width: 150px;
+    Height: 150px;
+    background-color: blueviolet;
+    margin: left;
+    align-items: center;
+    display: flex;
+}
+.box3{
+    width: 150px;
+    Height: 150px;
+    background-color: aqua;
+    margin: right;
+    align-items: center;  
+}
+.container{
+    width:600px;
+    height: 500px;
+    background: red;
+    background: #8a3d3d;
+    background: url("../image//.aa.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}

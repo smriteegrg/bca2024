@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header section start */
+.bbc-header{
+    width: 100%;
+    background: black;
+}
+.bbc-header-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 19%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo .logo-text{
+    width: 40%;
+    line-height: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo .logo-text .btext{
+    width: 31%;
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo .account{
+    width: 50%;
+    line-height: 40px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.logo .account:hover{
+    border-bottom: 2px soild #4040fc;
+}
+.logo .account span{
+    font-size: 16px;
+    
+}
+.menu{
+    width: 64%;
+    height: 40px;
+   
+}
+.menu ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    min-width: 100px;
+    text-align:center;
+    line-height: 40px;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu .facs{
+    background: white;
+    font-size: 8px;
+}
+.search{
+    width: 14%;
+    height: 40px;
+    display: flex;
+}
+.search .sleft{
+    width: 75%;
+    line-height: 40px;
+   
+}
+.search input{
+    width: 95%;
+    height: 27px;
+}
+.search .sright{
+    width: 25%;
+    line-height: 40px;
+}
+.search button{
+    width:100%;
+    background: green;
+    height: 33px;
+    color: white;
+    text-align: center;
+    border: 1px soild green;
+    
+}
+/* header section end */
+/* News banner section start */
+.banner-section{
+    width: 100%;
+    height: 500px;
+    background: red;
+    margin-top: 10px;
+}
+.banner-section .banner-title{
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    height: 60px;
+    align-items: center;
+}
+.banner-section .banner-title h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.banner-container{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-container .banner-left{
+    width: 49%;
+    height: 100%;
+    background: yellow;
+}
+.banner-left img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.banner-left img:hover{
+    opacity: 1;
+}
+ .banner-description{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    width: 90%;
+    left: 5%;
+}
+.banner-container .banner-right{
+    width: 49%;
+    height: 100%;
+    background: green;
+}
+
+/* News banner section end */
